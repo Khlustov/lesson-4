@@ -1,0 +1,803 @@
+.wrap {
+    text-align: center;
+    font-family: open sans, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+/*=====header=====*/
+.header {
+    width: 1400px;
+    height: 671px;
+    position: relative;
+}
+
+.container-navigation {
+    width: 1400px;
+    height: 70px;
+    background-color: black;
+}
+
+.logo {
+    width: 68px;
+    height: 31px;
+    position: absolute;
+    top: 20px;
+    left: 110px;
+    background: url(../img/logo.png) center no-repeat;
+}
+
+.navigation {
+    width: 489px;
+    height: 20px;
+    position: absolute;
+    top: 25px;
+    left: 823px;
+    bottom: 25px;
+    right: 108px;
+}
+
+.all-links {
+    margin: 0 auto;
+    padding-left: 0;
+}
+
+.links {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.nav {
+    margin: 0 20px;
+    text-decoration: none;    
+    width: 90px;
+    height: 20px;
+    font-family: Open Sans;
+    font-size: 15px;    
+    font-weight: 600;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.nav:hover {
+    color: #EC7979;
+}
+
+.container-header {
+    width: 1400px;
+    height: 600px;
+    background: url(../../lesson-4/img/city-1.png) center no-repeat;
+}
+
+.header-background {
+    width:100%;
+    height:100%;
+    background:#000;
+    opacity:0.25;
+}
+
+.form {
+    position: absolute;
+    width: 370px;
+    height: 370px;
+    border-radius: 8px;
+    top: 180px;
+    left: 919px;
+    background-color: white;
+}
+
+.form-text {
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    color: black;
+}
+
+.color-text {
+    color: #EC7979;
+}
+
+.form-button {
+    position: absolute;
+    border-radius:0 0 8px 8px;
+    width: 370px;
+    height: 54px;
+    background-color: #EC7979;
+    top: 316px;
+}
+
+.form-button:hover {
+    background-color: #333333;
+}
+
+.form-button-text {
+    font-family: Open Sans;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #ffffff;
+}
+
+.line-grey {
+    width: 252px;
+    border: 1px solid #BDBDBD
+}
+
+.name {
+    width: 252px;
+    margin-top: 90px;
+    margin-left: 59px;
+    text-align: left;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #BDBDBD;
+}
+
+.main-info {
+    width: 550px;
+    height: 470px;
+    position: absolute;
+    top: 130px;
+    left: 110px;  
+}
+
+.main-logo {
+    position: absolute;
+    margin: 0;
+    width: 129px;
+    height: 70px;
+    background: url(../../lesson-4/img/big-logo.png) center no-repeat;
+}
+
+h1 {
+    margin-top: 102px;
+    width: 544px;
+    height: 99px;
+    font-family: Raleway;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.small-white-line {
+   margin: 32px 0;
+    width: 64px;
+    height: 0px;
+    border: 1px solid #FFFFFF;    
+}
+
+.header-text {
+    margin: 32px 0;
+    width: 282px;
+    height: 38px;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.button {
+    margin: 32px 0;
+    display: inline-block;
+    width: 135px;
+    height: 42px;
+    border: 1px solid #ffffff;
+    text-decoration: none;
+}
+
+h2 {
+    margin: 11px 26px ;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #ffffff;
+}
+
+
+
+/*=====main=====*/
+.main{
+    width: 1400px;
+    position: relative;
+}
+
+/*=====section-social=====*/
+.social {
+    width: 1400px;
+    height: 110px;
+    position: relative;
+}
+
+h3 {
+    margin: 0;
+    position: absolute;
+    top: 14px;
+    left: 111px;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: left;
+    color: black;
+}
+
+.social-text {
+    margin: 0;
+    position: absolute;
+    top: 55px;
+    left: 111px;
+    width: 365px;
+    height: 38px;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+    color: black;
+}
+
+.social-icons{
+    margin: 0;
+    position: absolute;
+    width: 684px;
+    height: 55px;
+    top: 34px;
+    left: 605px;
+    background: url(../img/social-icons.png) center no-repeat;
+}
+
+.socials {
+    display: inline-block;
+    width: 94px;
+    height: 42px; 
+    text-decoration: none;    
+}
+
+.social-icon {
+    margin: 0;
+    padding: 0;     
+}
+
+.icon {
+    display: inline-block;
+    width: 92px;
+    height: 42px;
+}
+
+/*=====features=====*/
+.features {
+    width: 1400px;
+    height: 600px;
+    position: relative;
+    
+}
+
+.frames {
+    position: absolute;
+    top: 120px;
+    left: 110px;
+}
+
+.frame {
+    width: 110px;
+    height: 110px;
+    border-radius: 4px;
+    background-color: #333333;
+}
+
+.frame:hover {
+    background-color: #EC7979;
+}
+
+.frame-text {
+    font-family: Open Sans;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 45px 33px;
+}
+
+h4 {
+    position: absolute;
+    margin: 0;
+    top: 126px;
+    left: 341px;
+    width: 408px;
+    height: 27px;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: left;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.features-text{
+    position: absolute;
+    margin: 0;
+    top: 211px;
+    left: 341px;
+    width: 572px;
+    height: 133px;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+    color: #86878B;
+    text-transform: uppercase;
+}
+
+.pink-button {
+    position: absolute;
+    margin: 0;
+    top: 444px;
+    left: 341px;
+    width: 135px;
+    height: 42px;
+    background-color: #EC7979;
+    text-decoration: none;
+}
+
+.city-logo {
+    position: absolute;
+    margin: 0;
+    top: 100px;
+    left: 963px;
+    width: 320px;
+    height: 253px;
+    background: url(../../lesson-4/img/city-2.png) center no-repeat;
+}
+
+.our-process {
+    width: 1400px;
+    height: 600px;
+    position: relative;    
+}
+
+h5 {
+    position: absolute;
+    margin: 0;
+    top: 80px;
+    left: 360px;
+    width: 670px;
+    height: 42px;
+    font-family: Raleway;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42px;
+    text-align: center;
+    color: #212121;
+    text-transform: uppercase;
+}
+
+.red-line {
+    position: absolute;
+    margin: 0;
+    top: 156px;
+    left: 668px;
+    width: 64px;
+    border: 1px solid #E72424;
+}
+
+.process-text {
+    position: absolute;
+    margin: 0;
+    width: 363px;
+    height: 19px;
+    top: 192px;
+    left: 518px;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+    color: #86878B;
+}
+
+.all-cards {
+    text-align: center;
+    position: absolute;
+    left: 120px;
+    bottom: 80px;
+}
+
+.card {
+    width: 350px;
+    height: 225px;
+    display: inline-block;
+    margin: 0 16px;
+}
+
+h6 {
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27px;
+    color: #333333;
+}
+
+.card-text {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    color: #000000;
+}
+
+.circle-lamp {
+    border: 1px solid #E72424;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin-left: 141px;
+    background: url(../../lesson-4/img/lamp.png) no-repeat center;    
+}
+
+.circle-keyboard {
+    border: 1px solid #E72424;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin-left: 141px;
+    background: url(../../lesson-4/img/keyboard.png) no-repeat center;
+}
+
+.circle-lightning {
+    border: 1px solid #E72424;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin-left: 141px;
+    background: url(../../lesson-4/img/lightning.png) no-repeat center;
+}
+
+/*=====pricing=====*/
+.pricing {
+    width: 1400px;
+    height: 800px;
+    position: relative;
+}
+
+.all-price-cards {
+    position: absolute;
+    margin: 0;
+    top: 270px;
+    left: 110px;
+    text-align: center;
+}
+
+.price-card {
+    display: inline-block;
+    width: 340px;
+    margin: 0 20px;
+}
+
+.top-block {
+    position: absolute;
+    margin: 0 auto;
+    width: 340px;
+    height: 50px;
+    top: 0;
+    background-color: #333333;
+}
+
+.mid-block {
+    position: absolute;
+    margin: 0 auto;
+    width: 340px;
+    height: 100px;
+    top: 51px;
+    background-color: #333333;
+}
+
+.bottom-block {
+    position: absolute;
+    margin: 0 auto;
+    width: 340px;
+    height: 50px;
+    top: 153px;
+    background-color: #333333;
+}
+
+.price-text-block {
+    position: absolute;
+    margin: 0 auto;
+    width: 340px;
+    height: 260px;
+    top: 207px;
+}
+
+.price-text {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+    color: #86878B;
+}
+
+.type {
+    margin: 0;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: center;
+    color: #ffffff;
+    padding: 15px 144px 8px;
+}
+
+.coast {
+    margin: 0;
+    font-family: Raleway;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 41px;
+    text-align: center;
+    color: #ffffff;
+    padding: 26px 144px 33px 152px;
+}
+
+.time {
+    margin: 0;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+    text-align: center;
+    padding: 17px 127px 14px 135px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/*=====reviews=====*/
+.reviews {
+    width: 1400px;
+    height: 600px;
+    position: relative;
+}
+
+.reviews-cards {
+    text-align: center;
+    position: absolute;
+    left: 120px;
+    bottom: 80px;
+}
+
+.review-card {
+    width: 270px;
+    height: 220px;
+    display: inline-block;
+    margin: 0 35px;
+}
+
+.reviews-text {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+    align-items: center;
+    color: #86878B;
+}
+
+.avatar {
+    position: absolute;
+    margin: 0;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    background: url(../../lesson-4/img/avatar.png) center no-repeat;
+}
+
+.avatar-name { 
+    font-family: Open Sans;
+    font-size: 20px;    
+    font-weight: 700;
+    line-height: 27px;    
+    text-align: right;
+    color: #333333;    
+}
+
+.avatar-position {
+    margin-bottom: 30px;
+    font-family: Open Sans;
+    font-size: 14px;    
+    font-weight: 400;
+    line-height: 19px;    
+    text-align: right;
+    color: #86878B;    
+}
+
+/*=====noname=====*/
+.noname {
+    position: relative;
+    background: url(../../lesson-4/img/city-3.png) center no-repeat;
+    width: 1400px;
+    height: 325px;
+}
+
+.section-background {
+    width:100%;
+    height:100%;
+    background:#000;
+    opacity:0.65;
+}
+
+.noname-title{
+    position: absolute;
+    margin: 0;
+    width: 448px;
+    height: 42px;
+    top: 58px;
+    left: 476px;
+    font-family: Raleway;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.white-line {
+    position: absolute;
+    margin: 0;
+    width: 64px;
+    left: 668px;
+    top: 134px;
+    border: 1px solid #FFFFFF;
+}
+
+.section-text {
+    position: absolute;
+    margin: 0;
+    width: 779px;
+    height: 19px;
+    top: 170px;
+    left: 310px;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.button-noname {
+    position: absolute;
+    margin: 0;
+    width: 135px;
+    height: 42px;
+    top: 245px;
+    left: 632px;
+    border: 1px solid #ffffff;
+    text-decoration: none;
+}
+
+/*=====contact=====*/
+.contact {
+    width: 1400px;
+    height: 700px;
+    position: relative;
+}
+
+.main-input {
+    position: absolute;
+    margin: 0;
+    width: 600px;
+    height: 300px;
+    top: 250px;
+    left: 100px;
+}
+
+.input {
+    width: 600px;
+    height: 100px;
+}
+
+.input-small {
+    width: 580px;
+    height: 90px;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    color: #212121;
+    border: none;
+}
+
+.input-line {
+    width: 580px;
+    border: 1px solid #BDBDBD;
+    margin: 0 auto;
+}
+
+.message {
+    position: absolute;
+    margin: 0;
+    width: 600px;
+    height: 300px;
+    top: 250px;
+    right: 100px;
+}
+
+.message-input {
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.message-input-big {
+    width: 580px;
+    height: 290px;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    color: #212121;
+    border: none;
+}
+
+.send-button {
+    position: absolute;
+    margin: 0;
+    width: 166px;
+    height: 42px;
+    top: 614px;
+    left: 617px;
+    background-color: #EC7979;
+    text-decoration: none;
+}
+
+.footer {
+    width: 1400px;
+    height: 101px;
+    background-color: black;
+    text-align: center;
+}
+
+.socials-small {
+    background: url(../../lesson-4/img/social-icons-small.png) center no-repeat;
+    width: 317px;
+    height: 42px;
+    padding-top: 30px;
+    margin-left: 541px;
+}
+
+.social-icon-small {
+    display: inline-block;
+    width: 41px;
+    height: 23px;    
+}
+
+.footer-text {
+    margin: 0;
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+
+
+
+
